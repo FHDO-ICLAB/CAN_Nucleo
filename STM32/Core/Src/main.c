@@ -97,13 +97,22 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 		TxHeader.RTR=(UART_RxData[11]==1)?CAN_RTR_DATA:CAN_RTR_REMOTE;
 		TxHeader.TransmitGlobalTime=(UART_RxData[12]==1)?ENABLE:DISABLE;
 
-		uint8_t *Data=malloc(UART_RxData[2]*sizeof(uint8_t));
+		uint8_t *Data=malloc(UART_RxData[2]*sizeof(uint8_t)); //DELETED THIS CODE BLOCK
 		for (int i=0;i<UART_RxData[2];i++)
 		{
 			Data[i]=UART_RxData[i+3];
 		}
+
+
+		//uint8_t Data[8] = {0};  // Always use 8 bytes, zero-initialized
+		//uint8_t dlc = TxHeader.DLC;
+		//for (int i = 0; i < dlc && i < 8; i++) {
+		//	Data[i] = UART_RxData[i + 3];
+		//}
+
 		HAL_CAN_AddTxMessage(&hcan1, &TxHeader, Data, &TxMailbox);
-	} else if (UART_RxData[0]==1){
+	}
+	else if (UART_RxData[0]==1){
 		hcan1.Init.Prescaler = UART_RxData[1];
 		/*
 		hcan1.Init.Mode = CAN_MODE_LOOPBACK;
@@ -111,19 +120,26 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 		hcan1.Init.TimeSeg1 = CAN_BS1_4TQ;
 		hcan1.Init.TimeSeg2 = CAN_BS2_5TQ;
 		*/
+
 		CAN_Mode(UART_RxData[2]);
 		CAN_SJW(UART_RxData[3]);
 		CAN_TSeg1(UART_RxData[4]);
 		CAN_TSeg2(UART_RxData[5]);
+	    HAL_CAN_DeInit(&hcan1);
+	    HAL_CAN_Init(&hcan1);
+	    HAL_CAN_Start(&hcan1);
+	    HAL_CAN_ActivateNotification(&hcan1, CAN_IT_RX_FIFO0_MSG_PENDING);
 
-		HAL_UART_Receive_IT(&huart2, UART_RxData, sizeof(UART_RxData));
+	    //DELETE
+     //   uint8_t debug[5] = { hcan1.Init.Prescaler, hcan1.Init.SyncJumpWidth, hcan1.Init.TimeSeg1, hcan1.Init.TimeSeg2, hcan1.Init.Mode };
+      //  HAL_UART_Transmit(&huart2, debug, 5, 100);
 	}
-
+  HAL_UART_Receive_IT(&huart2, UART_RxData, sizeof(UART_RxData));
 
 }
 
 void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
-{
+{	/*
 	//uint8_t *CAN_RxData;
 	uint8_t *CAN_RxData=malloc((UART_RxData[1])*sizeof(uint8_t));
 	//uint8_t CAN_RxData[8];
@@ -132,8 +148,13 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
 	//CAN_RxData[7]+=1;
 	CAN_RxData[3]=0xa1;
 	HAL_UART_Transmit(&huart2,CAN_RxData,8,1000);//sizeof(CAN_RxData)
-	HAL_UART_Receive_IT(&huart2, UART_RxData, sizeof(UART_RxData)); //restarting the interrupt reception mode
+	//HAL_UART_Receive_IT(&huart2, UART_RxData, sizeof(UART_RxData)); //restarting the interrupt reception mode
 	//RxData[7]+=1;
+	*/
+    uint8_t CAN_RxData[8] = {0};
+    HAL_CAN_GetRxMessage(hcan, CAN_RX_FIFO0, &RxHeader, CAN_RxData);
+    // Only send as many bytes as received (DLC)
+    HAL_UART_Transmit(&huart2, CAN_RxData, RxHeader.DLC, 1000);
 }
 /* USER CODE END 0 */
 
@@ -385,11 +406,11 @@ static void MX_CAN1_Init(void)
 
   /* USER CODE END CAN1_Init 1 */
   hcan1.Instance = CAN1;
-  hcan1.Init.Prescaler = 10;
-  hcan1.Init.Mode = CAN_MODE_LOOPBACK; //CAN_MODE_NORMAL CAN_MODE_LOOPBACK
-  hcan1.Init.SyncJumpWidth = CAN_SJW_3TQ;
-  hcan1.Init.TimeSeg1 = CAN_BS1_4TQ;
-  hcan1.Init.TimeSeg2 = CAN_BS2_5TQ;
+  //hcan1.Init.Prescaler = 8;
+ // hcan1.Init.Mode = CAN_MODE_NORMAL; //CAN_MODE_NORMAL CAN_MODE_LOOPBACK
+ // hcan1.Init.SyncJumpWidth = CAN_SJW_3TQ;
+ // hcan1.Init.TimeSeg1 = CAN_BS1_5TQ;
+  //hcan1.Init.TimeSeg2 = CAN_BS2_4TQ;
   hcan1.Init.TimeTriggeredMode = DISABLE;
   hcan1.Init.AutoBusOff = DISABLE;
   hcan1.Init.AutoWakeUp = DISABLE;
