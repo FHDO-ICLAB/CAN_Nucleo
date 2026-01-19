@@ -57,9 +57,9 @@ void konfiguration::on_pushButton_SendCBC_clicked()
     quint16 Prescaler=ui->Pre->text().toInt();
     //QString Mode=ui->mod->currentText();
     quint8 Mode=ui->mod->currentIndex();
-    quint8 SJW=ui->sjw->currentText().leftRef(1).toUInt();
-    quint8 TS1=ui->TS1->currentText().leftRef(1).toUInt();
-    quint8 TS2=ui->TS2->currentText().leftRef(1).toUInt();
+    quint8 SJW=ui->sjw->currentText().left(1).toUInt();
+    quint8 TS1=ui->TS1->currentText().left(1).toUInt();
+    quint8 TS2=ui->TS2->currentText().left(1).toUInt();
     QByteArray Config_Data;
     //Config_Data.resize(14);
     Config_Data.append(1); //Config flag
