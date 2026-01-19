@@ -130,6 +130,9 @@
      <height>26</height>
     </rect>
    </property>
+   <property name="text">
+    <string>20</string>
+   </property>
   </widget>
   <widget class="QComboBox" name="TS2">
    <property name="geometry">
@@ -139,6 +142,9 @@
      <width>111</width>
      <height>26</height>
     </rect>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
    </property>
   </widget>
   <widget class="QLabel" name="label_28">

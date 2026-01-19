@@ -2,7 +2,7 @@
 #include "ui_mainwindow.h"
 #include <QMainWindow>
 //#include "QtSerialPort/qserialport.h"
-
+#include <QRegularExpressionValidator>
 
 quint8 DLC;
 //bool Test=false;
@@ -24,16 +24,16 @@ MainWindow::MainWindow(QWidget *parent)
         //ui->comboBox_port_name->event
        //allows only Hex in the LineEdit
 
-       ui->lineEdit_ID->setValidator(new QRegExpValidator(QRegExp("0x[0-9a-fA-F][0-9a-fA-F]"),this));
-       ui->lineEdit_DLC->setValidator(new QRegExpValidator(QRegExp("[1-8]"),this));
-       ui->lineEdit_D0->setValidator(new QRegExpValidator(QRegExp("0x[0-9a-fA-F][0-9a-fA-F]"),this));
-       ui->lineEdit_D1->setValidator(new QRegExpValidator(QRegExp("0x[0-9a-fA-F][0-9a-fA-F]"),this));
-       ui->lineEdit_D2->setValidator(new QRegExpValidator(QRegExp("0x[0-9a-fA-F][0-9a-fA-F]"),this));
-       ui->lineEdit_D3->setValidator(new QRegExpValidator(QRegExp("0x[0-9a-fA-F][0-9a-fA-F]"),this));
-       ui->lineEdit_D4->setValidator(new QRegExpValidator(QRegExp("0x[0-9a-fA-F][0-9a-fA-F]"),this));
-       ui->lineEdit_D5->setValidator(new QRegExpValidator(QRegExp("0x[0-9a-fA-F][0-9a-fA-F]"),this));
-       ui->lineEdit_D6->setValidator(new QRegExpValidator(QRegExp("0x[0-9a-fA-F][0-9a-fA-F]"),this));
-       ui->lineEdit_D7->setValidator(new QRegExpValidator(QRegExp("0x[0-9a-fA-F][0-9a-fA-F]"),this));
+       ui->lineEdit_ID->setValidator(new QRegularExpressionValidator(QRegularExpression("0x[0-9a-fA-F][0-9a-fA-F]"),this));
+       ui->lineEdit_DLC->setValidator(new QRegularExpressionValidator(QRegularExpression("[1-8]"),this));
+       ui->lineEdit_D0->setValidator(new QRegularExpressionValidator(QRegularExpression("0x[0-9a-fA-F][0-9a-fA-F]"),this));
+       ui->lineEdit_D1->setValidator(new QRegularExpressionValidator(QRegularExpression("0x[0-9a-fA-F][0-9a-fA-F]"),this));
+       ui->lineEdit_D2->setValidator(new QRegularExpressionValidator(QRegularExpression("0x[0-9a-fA-F][0-9a-fA-F]"),this));
+       ui->lineEdit_D3->setValidator(new QRegularExpressionValidator(QRegularExpression("0x[0-9a-fA-F][0-9a-fA-F]"),this));
+       ui->lineEdit_D4->setValidator(new QRegularExpressionValidator(QRegularExpression("0x[0-9a-fA-F][0-9a-fA-F]"),this));
+       ui->lineEdit_D5->setValidator(new QRegularExpressionValidator(QRegularExpression("0x[0-9a-fA-F][0-9a-fA-F]"),this));
+       ui->lineEdit_D6->setValidator(new QRegularExpressionValidator(QRegularExpression("0x[0-9a-fA-F][0-9a-fA-F]"),this));
+       ui->lineEdit_D7->setValidator(new QRegularExpressionValidator(QRegularExpression("0x[0-9a-fA-F][0-9a-fA-F]"),this));
 
        //ui->comboBox_port_name->addItem(QStringLiteral("COM_Test"));
        ui->comboBox_baud_rate->addItem(QStringLiteral("9600"));
@@ -107,7 +107,8 @@ MainWindow::MainWindow(QWidget *parent)
 
        //updateSettings();
 
-       QFuture<void> serial_update_future = QtConcurrent::run(this, &MainWindow::availableSerialUpdate);
+       //QFuture<void> serial_update_future = QtConcurrent::run(this, &MainWindow::availableSerialUpdate); /I changed it
+       QFuture<void> serial_update_future = QtConcurrent::run(&MainWindow::availableSerialUpdate, this);
        //QFuture<void> connection_update_future = QtConcurrent::run(this, &MainWindow::connectionStatusUpdate);
 
 
