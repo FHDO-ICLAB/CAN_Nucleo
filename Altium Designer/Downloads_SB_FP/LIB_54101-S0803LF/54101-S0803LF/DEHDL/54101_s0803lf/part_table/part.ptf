@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '54101_S0803LF'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Amphenol Communication Solutions", "54101-S0803LF" (!) = "", "54101S0803LF", "Other", "649-54101-S0803LF", "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/54101-S0803LF?qs=iiM6sTJtPEc921tw16XaKg%3D%3D", "BergStik, Board to Board connector, Unshrouded vertical Header, Through Hole, Single Row, 3 Positions, 2.54 mm Pitch.", "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/54101.pdf", "8.58 mm"
+END_PART
+
+END.

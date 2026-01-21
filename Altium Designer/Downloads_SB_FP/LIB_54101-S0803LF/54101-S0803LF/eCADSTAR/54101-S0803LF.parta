@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_1179991"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-02-17-13:39:10)
+    (utime 2022-11-07-12:11:10)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "54101-S0803LF")
+)
+
+
+(pinAssign "ECS_1179991"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-02-17-13:39:10)
+    (utime 2022-11-07-12:11:10)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1179991")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "54101-S0803LF")
+)
+
+
+(part "54101-S0803LF"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-02-17-13:39:10)
+    (utime 2022-11-07-12:11:10)
+    (packageRef "54101-S0803LF")
+    (pinAssignRef "ECS_1179991")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "BergStik, Board to Board connector, Unshrouded vertical Header, Through Hole, Single Row, 3 Positions, 2.54 mm Pitch.")
+    (property "Mouser_Part_Number" "649-54101-S0803LF")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/54101-S0803LF?qs=iiM6sTJtPEc921tw16XaKg%3D%3D")
+    (property "Manufacturer_Name" "Amphenol Communication Solutions")
+    (property "Manufacturer_Part_Number" "54101-S0803LF")
+    (property "Datasheet_Link" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/54101.pdf")
+    (property "compAreaTopHeight" 8.58)
+)
+
+

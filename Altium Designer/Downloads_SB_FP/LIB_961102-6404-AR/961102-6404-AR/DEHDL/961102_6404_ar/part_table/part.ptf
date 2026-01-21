@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '961102_6404_AR'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "3M", "961102-6404-AR" (!) = "", "HDRV2W64P0X254_1X2_508X250X820P", "Header, Vertical", "517-9611026404AR", "https://www.mouser.co.uk/ProductDetail/3M-Electronic-Solutions-Division/961102-6404-AR?qs=A%252BtsDZJT%252Bi9E8bBrCfg1XA%3D%3D", "3M 961, 2 Way, 1 Row, Straight Pin Header", "", "8.2 mm"
+END_PART
+
+END.

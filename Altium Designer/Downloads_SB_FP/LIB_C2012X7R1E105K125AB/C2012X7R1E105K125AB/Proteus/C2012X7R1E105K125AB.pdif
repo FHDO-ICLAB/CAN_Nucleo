@@ -1,0 +1,104 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "C2012X7R1E105K125AB"
+   (description "0805 X7R ceramic capacitor 25V 1uF TDK C2012 C 1uF Ceramic Multilayer Capacitor, 25 V dc X7R Dielectric +/-10% SMD")
+   (family "CAP")
+   (package "C2012_Commercial")
+   (attribute "Datasheet Link" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf")
+   (attribute "Geometry.Height" "0.75mm")
+   (attribute "Mouser Part Number" "810-C2012X7R1E105K")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TDK/C2012X7R1E105K125AB?qs=NRhsANhppD%252Buy2B2F1KPNA%3D%3D")
+   (attribute "Manufacturer_Name" "TDK")
+   (attribute "Manufacturer_Part_Number" "C2012X7R1E105K125AB")
+   (gate
+    (symbol "C2012X7R1E105K125AB")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "C2012X7R1E105K125AB"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 220 100) (pt 220 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 220 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 0) (pt 300 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "C2012_Commercial"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1 0.625)
+      (pt 1 0.625)
+      (pt 1 -0.625)
+      (pt -1 -0.625)
+      (pt -1 0.625))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt -2.125 0) (pt -2.025 0)
+     )
+    )
+   )
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.175 1.825)
+      (pt 2.45 1.825)
+      (pt 2.45 -1.825)
+      (pt -3.175 -1.825)
+      (pt -3.175 1.825))))
+   (leg 1 (pt -0.925 0) (padstack 0))
+   (leg 2 (pt 0.925 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (square 1.05))
+   )
+   (model "C2012X7R1E105K125AB.stp"
+    (euler 0 0 0)
+    (offset -0.9800000190734863 0 0.6299999952316284)
+   )
+  )
+ )
+)

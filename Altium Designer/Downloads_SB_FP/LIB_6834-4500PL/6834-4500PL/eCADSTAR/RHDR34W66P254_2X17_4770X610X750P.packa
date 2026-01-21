@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "6834-4500PL"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-04-23-09:39:56)
+    (mountForm default
+        (footprintRef "RHDR34W66P254_2X17_4770X610X750P")
+        (spec "System")
+    )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MIC5317_1.2YM5_TR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "MIC5317-1.2YM5-TR" (!) = "", "SOT95P280X145-5N", "SOT23 (5-Pin)", "998-MIC5317-1.2YM5TR", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MIC5317-12YM5-TR?qs=U6T8BxXiZAUk7GFYLwZxxw%3D%3D", "LDO Voltage Regulators Single LDO, Hi-Perf. 150mA, 1.2 Vout", "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579427", "1.45 mm"
+END_PART
+
+END.

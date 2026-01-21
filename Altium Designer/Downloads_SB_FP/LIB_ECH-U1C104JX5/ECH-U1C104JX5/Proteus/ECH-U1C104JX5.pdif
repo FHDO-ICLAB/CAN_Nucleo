@@ -1,0 +1,103 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ECH-U1C104JX5"
+   (description "Plastic Film Capacitor, Stacked metallized PPS film as dielectric with simple mold-less construction")
+   (family "CAP")
+   (package "ECHU_G3_18")
+   (attribute "Datasheet Link" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDI0000/ABD0000C173.pdf")
+   (attribute "Mouser Part Number" "667-ECH-U1C104JX5")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ECH-U1C104JX5?qs=b%252BB9euYP3EMLLnBUsHao4g%3D%3D")
+   (attribute "Manufacturer_Name" "Panasonic")
+   (attribute "Manufacturer_Part_Number" "ECH-U1C104JX5")
+   (gate
+    (symbol "ECH-U1C104JX5")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "ECH-U1C104JX5"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 220 100) (pt 220 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 100) (pt 280 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 220 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 280 0) (pt 300 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ECHU_G3_18"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.6 1.25)
+      (pt 1.6 1.25)
+      (pt 1.6 -1.25)
+      (pt -1.6 -1.25)
+      (pt -1.6 1.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt -2.45 0) (pt -2.35 0)
+     )
+    )
+   )
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.3 2.25)
+      (pt 2.6 2.25)
+      (pt 2.6 -2.25)
+      (pt -3.3 -2.25)
+      (pt -3.3 2.25))))
+   (leg 1 (pt -1.35 0) (padstack 0))
+   (leg 2 (pt 1.35 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.9 2.3 0 0 90))
+   )
+   (model "ECH-U1C104JX5.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,30 @@
+*PADS-LIBRARY-PCB-DECALS-V9*
+
+ECHU_G3_18 M 0 0 0 2 3 0 2 1 0
+TIMESTAMP 2021.10.01.00.56.12
+0 0 0 0 1.27 0.127 1 0 34 "Regular <Romansim Stroke Font>"
+REF-DES
+0 0 0 0 1.27 0.127 1 32 35 "Regular <Romansim Stroke Font>"
+PART-TYPE
+CLOSED 5 0.2 27 -1
+-1.6 1.25
+1.6 1.25
+1.6 -1.25
+-1.6 -1.25
+-1.6 1.25
+CIRCLE 2 0.2 26 -1
+-2.45 0
+-2.35 0
+CLOSED 5 0.05 20 -1
+-3.3 2.25
+2.6 2.25
+2.6 -2.25
+-3.3 -2.25
+-3.3 2.25
+T-1.35 0 -1.35 0 1
+T1.35 0 1.35 0 2
+PAD 0 3 N 0
+-2 0.9 RF 0 90 2.3 0
+-1 0 R
+0 0 R
+*END*

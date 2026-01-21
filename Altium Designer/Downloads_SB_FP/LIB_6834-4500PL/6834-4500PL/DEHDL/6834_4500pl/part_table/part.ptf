@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '6834_4500PL'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "3M", "6834-4500PL" (!) = "", "RHDR34W66P254_2X17_4770X610X750P", "Header, Receptacle - Straight PTH Box", "517-6834-4500PL", "", "Headers & Wire Housings 34P STR PLRZD SKT", "https://componentsearchengine.com/Datasheets/1/6834-4500PL.pdf", "7.5 mm"
+END_PART
+
+END.

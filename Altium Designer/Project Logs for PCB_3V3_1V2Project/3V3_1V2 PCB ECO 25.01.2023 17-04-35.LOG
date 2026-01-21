@@ -1,0 +1,37 @@
+Removed Pin From Net: NetName=GND Pin=C1-1
+Removed Pin From Net: NetName=5V Pin=C1-2
+Change Component Footprint: Designator=C1 Old Footprint=CAPC1005X55X10LL05 New Footprint=FP-C2012-125-0_2-IPC_B
+Change Component Comment : Designator=C1 Old Comment=C1005X5R1A105K050BB New Comment=C2012X7R1E105K125AB
+Added Component: Designator=C?(FP-C2012-125-0_2-IPC_B)
+Add component (AddParameter): Name = "Capacitance"; Value = "1uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Construction"; Value = "Flat"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric"; Value = "X7R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dielectric Material"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Ceramic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness"; Value = "0.057inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "25V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.000194oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.049inch"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2

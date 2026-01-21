@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_184089"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-04-13-16:58:49)
+    (utime 2020-09-14-06:26:00)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "SI2301CDS-T1-GE3")
+)
+
+
+(pinAssign "ECS_184089"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-04-13-16:58:49)
+    (utime 2020-09-14-06:26:00)
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "D") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_184089")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SI2301CDS-T1-GE3")
+)
+
+
+(part "SI2301CDS-T1-GE3"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2015-04-13-16:58:49)
+    (utime 2020-09-14-06:26:00)
+    (packageRef "SI2301CDS-T1-GE3")
+    (pinAssignRef "ECS_184089")
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "D") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "IC")
+    (property "description" "SI2301CDS-T1-GE3, P-channel MOSFET Transistor 2.3 A 20 V, 3-Pin SOT-23, TO-236")
+    (property "Mouser_Part_Number" "781-SI2301CDS-T1-GE3")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2301CDS-T1-GE3?qs=IRuQNBqMOcnWEzfGi6KYYw%3D%3D")
+    (property "Manufacturer_Name" "Vishay")
+    (property "Manufacturer_Part_Number" "SI2301CDS-T1-GE3")
+    (property "Datasheet_Link" "http://www.vishay.com/docs/68741/si2301cd.pdf")
+    (property "compAreaTopHeight" 1.12)
+)
+
+

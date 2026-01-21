@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ERJ-UP3F56R0V
+#/13646634/1024413/2.49/2/2/Resistor
+DEF ERJ-UP3F56R0V R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "ERJ-UP3F56R0V" 550 150 50 H V L CNN
+F2 "ERJUP3" 550 50 50 H I L CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf" 550 -50 50 H I L CNN
+F4 "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.25, Chip Size (LxW(EIA)) (mm): 1.6 x 0.8 (EIA:0603), Resistance Values (?): 56, Resistance Tolerance (%): 1, T.C.R (?102/K): ?100" 550 -150 50 H I L CNN "Description"
+F5 "0.55" 550 -250 50 H I L CNN "Height"
+F6 "667-ERJ-UP3F56R0V" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP3F56R0V?qs=GedFDFLaBXEVyc%252BpeANJkg%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Panasonic" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "ERJ-UP3F56R0V" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,40 @@
+PCBNEW-LibModule-V1  2023-01-25 15:47:57
+# encoding utf-8
+Units mm
+$INDEX
+C2012_Commercial
+$EndINDEX
+$MODULE C2012_Commercial
+Po 0 0 0 15 63d14f2d 00000000 ~~
+Li C2012_Commercial
+Cd C2012_Commercial
+Kw Capacitor
+Sc 0
+At SMD
+AR 
+Op 0 0 0
+T0 0 0 1.27 1.27 0 0.254 N V 21 N "C**"
+T1 0 0 1.27 1.27 0 0.254 N I 21 N "C2012_Commercial"
+DS -1 -0.625 1 -0.625 0.2 24
+DS 1 -0.625 1 0.625 0.2 24
+DS 1 0.625 -1 0.625 0.2 24
+DS -1 0.625 -1 -0.625 0.2 24
+DS -3.175 -1.825 2.45 -1.825 0.05 24
+DS 2.45 -1.825 2.45 1.825 0.05 24
+DS 2.45 1.825 -3.175 1.825 0.05 24
+DS -3.175 1.825 -3.175 -1.825 0.05 24
+DC -2.075 0 -2.125 0 0.254 21
+$PAD
+Po -0.925 0
+Sh "1" R 1.05 1.05 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0.925 0
+Sh "2" R 1.05 1.05 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$EndMODULE C2012_Commercial
+$EndLIBRARY

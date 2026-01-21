@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C2012X7R1E105K125AB
+D 0805 X7R ceramic capacitor 25V 1uF TDK C2012 C 1uF Ceramic Multilayer Capacitor, 25 V dc X7R Dielectric +/-10% SMD
+K
+F https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf
+$ENDCMP
+#
+#End Doc Library

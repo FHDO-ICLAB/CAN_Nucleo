@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ESQ_119_24_T_D'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "SAMTEC", "ESQ-119-24-T-D" (!) = "", "ESQ-119-Y-X-D", "Other", "200-ESQ11924TD", "https://www.mouser.co.uk/ProductDetail/Samtec/ESQ-119-24-T-D?qs=Cqqh%252BS766wn0%252Bf8oeyus2A%3D%3D", ".100" PC/104 Elevated Socket Strip,  positions per row,  row", "http://suddendocs.samtec.com/prints/esq-1xx-xx-x-x-xxx-xx-x-xx-mkt.pdf"
+END_PART
+
+END.

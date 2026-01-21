@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_13646634"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-06-10-12:01:23)
+    (utime 2022-07-08-09:08:36)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "ERJ-UP3F56R0V")
+)
+
+
+(pinAssign "ECS_13646634"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-06-10-12:01:23)
+    (utime 2022-07-08-09:08:36)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_13646634")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "ERJ-UP3F56R0V")
+)
+
+
+(part "ERJ-UP3F56R0V"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-06-10-12:01:23)
+    (utime 2022-07-08-09:08:36)
+    (packageRef "ERJ-UP3F56R0V")
+    (pinAssignRef "ECS_13646634")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "R")
+    (property "description" "Anti-Sulfurated Thick Film Chip Resistors/ Anti-Surge Type, Power Rating (W): 0.25, Chip Size (LxW(EIA)) (mm): 1.6 x 0.8 (EIA:0603), Resistance Values (?): 56, Resistance Tolerance (%): 1, T.C.R (?102/K): ?100")
+    (property "Mouser_Part_Number" "667-ERJ-UP3F56R0V")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-UP3F56R0V?qs=GedFDFLaBXEVyc%252BpeANJkg%3D%3D")
+    (property "Manufacturer_Name" "Panasonic")
+    (property "Manufacturer_Part_Number" "ERJ-UP3F56R0V")
+    (property "Datasheet_Link" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf")
+    (property "compAreaTopHeight" 0.55)
+)
+
+

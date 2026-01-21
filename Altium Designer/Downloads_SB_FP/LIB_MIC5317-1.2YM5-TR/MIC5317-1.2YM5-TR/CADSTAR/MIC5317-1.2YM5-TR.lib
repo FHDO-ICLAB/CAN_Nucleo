@@ -1,0 +1,16 @@
+.MIC5317-1.2YM5-TR :1 ;LDO Voltage Regulators Single LDO, Hi-Perf. 150mA, 1.2 Vout
+SOT95P280X145-5N
+*STM IC
+*NGS
+*PLB 1="VIN" 2="GND" 3="EN" 4="NC" 5="VOUT"
+*MXP 5
+*DFN MIC5317-1.2YM5-TR
+~!Mouser Part Number (998-MIC5317-1.2YM5TR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MIC5317-12YM5-TR?qs=U6T8BxXiZAUk7GFYLwZxxw%3D%3D)
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (MIC5317-1.2YM5-TR)
+~!Link Datasheet (http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579427)
+~!Height (1.45mm)
+~!3D_Model (MIC5317-1.2YM5-TR)
+MIC5317-1.2YM5-TR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

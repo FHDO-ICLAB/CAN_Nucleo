@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ECH-U1C104JX5"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-09-30-23:56:39)
+    (mountForm default
+        (footprintRef "ECHU_G3_18")
+        (spec "System")
+    )
+)

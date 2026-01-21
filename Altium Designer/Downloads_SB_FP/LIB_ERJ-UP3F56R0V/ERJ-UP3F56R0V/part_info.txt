@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=ERJ-UP3F56R0V
+PartCategory=Resistor
+PackageCategory=Other
+PinCount=2
+Version=1.1
+Released=2022-06-10 12:01:23
+Downloaded=2023-01-02 10:53:26
+3D=Y

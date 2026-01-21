@@ -1,0 +1,7 @@
+DRC Rules Export File for PCB: C:\Users\ihsen\OneDrive\Desktop\Projekt zur Bachelorarbeit\Altium\3V3_1V2_Projekt\PCB_3V3_1V2Project\History\3V3_1V2.PcbDoc
+RuleKind=MinimumAnnularRing|RuleName=Minimum IAR <=0.45mm|Scope=Board|Minimum=8.86
+RuleKind=MinimumAnnularRing|RuleName=Minimum IAR  >0.45mm|Scope=Board|Minimum=9.84
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=3.94
+RuleKind=Width|RuleName=Width-xTW|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=Clearance-xPP-xTP-xTT|Scope=Board|Minimum=5.91

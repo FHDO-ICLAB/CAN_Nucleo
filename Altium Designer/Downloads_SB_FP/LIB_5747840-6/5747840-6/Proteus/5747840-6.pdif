@@ -1,0 +1,154 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "5747840-6"
+   (description "9 way r/a PCB D plug w/screw lock,6A")
+   (family "CON")
+   (package "TE-5747840-6")
+   (attribute "Datasheet Link" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/6d328899bf3b4d94f3f5cd289f57cd42.pdf")
+   (attribute "Geometry.Height" "12.6mm")
+   (attribute "Mouser Part Number" "571-5747840-6")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5747840-6?qs=x6EjVpvqMVN1FSGGZ1Dvpg%3D%3D")
+   (attribute "Manufacturer_Name" "TE Connectivity")
+   (attribute "Manufacturer_Part_Number" "5747840-6")
+   (gate
+    (symbol "5747840-6")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+    (pin "6" 6 PS)
+    (pin "7" 7 PS)
+    (pin "8" 8 PS)
+    (pin "9" 9 PS)
+    (pin "10" 10 PS)
+    (pin "11" 11 PS)
+   )
+  )
+  (symbol "5747840-6"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 300) (pt 800 300) (pt 800 -300) (pt 200 -300) (pt 200 300) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 300 500) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 400 500) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 500) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 600 500) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 500) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 300 -500) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 400 -500) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 -500) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 600 -500) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TE-5747840-6"
+   (units MM)
+   (layer TSLK
+    (graphic
+     (stroke 0.15)
+     (path
+      (closed true)
+      (pt -15.46 1.68)
+      (pt 15.46 1.68)
+      (pt 15.46 -10.94)
+      (pt -15.46 -10.94)
+      (pt -15.46 1.68))))
+   (layer TSLK
+    (graphic
+     (stroke 0.15)
+     (path
+      (closed false)
+      (pt -8.21 -10.94)
+      (pt -8.21 -16.94)
+      (pt 8.09 -16.94)
+      (pt 8.09 -10.94))))
+   (leg 1 (pt -5.48 0) (padstack 0))
+   (leg 2 (pt -2.74 0) (padstack 0))
+   (leg 3 (pt 0 0) (padstack 0))
+   (leg 4 (pt 2.74 0) (padstack 0))
+   (leg 5 (pt 5.48 0) (padstack 0))
+   (leg 6 (pt -4.11 -2.84) (padstack 0))
+   (leg 7 (pt -1.37 -2.84) (padstack 0))
+   (leg 8 (pt 1.37 -2.84) (padstack 0))
+   (leg 9 (pt 4.11 -2.84) (padstack 0))
+   (leg 10 (pt 12.49 -1.42) (padstack 10))
+   (leg 11 (pt -12.51 -1.42) (padstack 11))
+   (padstack 0
+    (hole 1.05)
+    (plated true)
+    (pad (layer TCOP) (round 2))
+    (pad (layer INNER) (round 2))
+    (pad (layer BCOP) (round 2))
+   )
+   (padstack 10
+    (hole 3.2)
+    (plated true)
+    (pad (layer TCOP) (round 7))
+    (pad (layer INNER) (round 7))
+    (pad (layer BCOP) (round 7))
+   )
+   (padstack 11
+    (hole 3.2)
+    (plated true)
+    (pad (layer TCOP) (round 7))
+    (pad (layer INNER) (round 7))
+    (pad (layer BCOP) (round 7))
+   )
+   (model "5747840-6.stp"
+    (euler 90 0 0)
+    (offset -0.009999999776482582 -16.809999465942383 6.010000228881836)
+   )
+  )
+ )
+)

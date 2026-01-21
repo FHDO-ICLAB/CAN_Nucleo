@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "C2012_Commercial"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "C2012_Commercial")
+        (spec "default")
+    )
+)

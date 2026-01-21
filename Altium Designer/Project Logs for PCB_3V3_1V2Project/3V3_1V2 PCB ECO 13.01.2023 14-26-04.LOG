@@ -1,0 +1,4 @@
+Change Net Name : Old Net Name=CAN_H New Net Name=CANH_1V2
+Change Net Name : Old Net Name=CAN_L New Net Name=CANL_1V2
+Change Net Name : Old Net Name=Net1_6 New Net Name=CANL_3V3
+Change Net Name : Old Net Name=Net1_7 New Net Name=CANH_3V3

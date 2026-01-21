@@ -1,0 +1,9 @@
+Manufacturer=SAMTEC
+PartNumber=ESQ-119-24-T-D
+PartCategory=Connector
+PackageCategory=Other
+PinCount=38
+Version=1.1
+Released=2020-06-19 12:12:42
+Downloaded=2023-01-09 13:12:42
+3D=Y

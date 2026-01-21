@@ -1,0 +1,9 @@
+Manufacturer=Amphenol Communication Solutions
+PartNumber=54101-S0803LF
+PartCategory=Connector
+PackageCategory=Other
+PinCount=3
+Version=7.3
+Released=2022-02-17 13:39:10
+Downloaded=2023-01-02 10:14:51
+3D=Y

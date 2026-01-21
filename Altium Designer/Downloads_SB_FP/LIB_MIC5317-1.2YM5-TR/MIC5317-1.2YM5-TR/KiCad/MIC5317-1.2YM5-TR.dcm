@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MIC5317-1.2YM5-TR
+D LDO Voltage Regulators Single LDO, Hi-Perf. 150mA, 1.2 Vout
+K
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579427
+$ENDCMP
+#
+#End Doc Library

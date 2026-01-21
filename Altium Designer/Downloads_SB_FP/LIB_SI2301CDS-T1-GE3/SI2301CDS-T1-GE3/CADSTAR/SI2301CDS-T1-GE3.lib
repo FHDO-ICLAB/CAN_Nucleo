@@ -1,0 +1,16 @@
+.SI2301CDS-T1-GE3 :1 ;SI2301CDS-T1-GE3, P-channel MOSFET Transistor 2.3 A 20 V, 3-Pin SOT-23, TO-236
+SOT95P237X112-3N
+*STM IC
+*NGS
+*PLB 1="G" 2="S" 3="D"
+*MXP 3
+*DFN SI2301CDS-T1-GE3
+~!Mouser Part Number (781-SI2301CDS-T1-GE3)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2301CDS-T1-GE3?qs=IRuQNBqMOcnWEzfGi6KYYw%3D%3D)
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (SI2301CDS-T1-GE3)
+~!Link Datasheet (http://www.vishay.com/docs/68741/si2301cd.pdf)
+~!Height (1.12mm)
+~!3D_Model (SI2301CDS-T1-GE3)
+SI2301CDS-T1-GE3
+1.1!U 2.1!U 3.1!U 

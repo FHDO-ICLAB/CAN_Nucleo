@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ECHU_G3_18"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ECHU_G3_18")
+        (spec "default")
+    )
+)

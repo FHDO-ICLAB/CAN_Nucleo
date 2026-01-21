@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'C2012X7R1E105K125AB'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TDK", "C2012X7R1E105K125AB" (!) = "", "C2012_Commercial", "Other", "810-C2012X7R1E105K", "https://www.mouser.co.uk/ProductDetail/TDK/C2012X7R1E105K125AB?qs=NRhsANhppD%252Buy2B2F1KPNA%3D%3D", "0805 X7R ceramic capacitor 25V 1uF TDK C2012 C 1uF Ceramic Multilayer Capacitor, 25 V dc X7R Dielectric +/-10% SMD", "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf", "0.75 mm"
+END_PART
+
+END.

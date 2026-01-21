@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "C2012X7R1E105K125AB"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-06-17-11:38:46)
+    (mountForm default
+        (footprintRef "C2012_Commercial")
+        (spec "System")
+    )
+)

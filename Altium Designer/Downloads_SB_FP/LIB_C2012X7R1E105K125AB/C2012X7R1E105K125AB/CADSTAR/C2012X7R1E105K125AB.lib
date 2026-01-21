@@ -1,0 +1,16 @@
+.C2012X7R1E105K125AB :1 ;0805 X7R ceramic capacitor 25V 1uF TDK C2012 C 1uF Ceramic Multilayer Capacitor, 25 V dc X7R Dielectric +/-10% SMD
+C2012_Commercial
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN C2012X7R1E105K125AB
+~!Mouser Part Number (810-C2012X7R1E105K)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TDK/C2012X7R1E105K125AB?qs=NRhsANhppD%252Buy2B2F1KPNA%3D%3D)
+~!Manufacturer_Name (TDK)
+~!Manufacturer_Part_Number (C2012X7R1E105K125AB)
+~!Link Datasheet (https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf)
+~!Height (0.75mm)
+~!3D_Model (C2012X7R1E105K125AB)
+C2012X7R1E105K125AB
+1.1!U 2.1!U 

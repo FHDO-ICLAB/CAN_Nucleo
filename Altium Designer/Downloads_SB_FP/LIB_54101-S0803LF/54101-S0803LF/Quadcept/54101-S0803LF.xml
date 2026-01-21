@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/1179991/1024413/2.49/3/2/Connector/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="c153_h102" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="40.15748031496">
+    <padshape layer="TOP" shape="round" width="60.23622047244" height="60.23622047244" />
+    <padshape layer="TOP_SOLDER_MASK" shape="round" width="68.110236220472" height="68.110236220472" />
+    <padshape layer="INNER" shape="round" width="60.23622047244" height="60.23622047244" />
+    <padshape layer="BOTTOM" shape="round" width="60.23622047244" height="60.23622047244" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="round" width="68.110236220472" height="68.110236220472" />
+  </padstyle>
+  <padstyle name="s153_h102" surface="False" plated="True" isvia="False" nopaste="True" nomask="True" complex="False" holesize="40.15748031496">
+    <padshape layer="TOP" shape="square" width="60.23622047244" height="60.23622047244" />
+    <padshape layer="TOP_SOLDER_MASK" shape="square" width="68.110236220472" height="68.110236220472" />
+    <padshape layer="INNER" shape="square" width="60.23622047244" height="60.23622047244" />
+    <padshape layer="BOTTOM" shape="square" width="60.23622047244" height="60.23622047244" />
+    <padshape layer="BOTTOM_SOLDER_MASK" shape="square" width="68.110236220472" height="68.110236220472" />
+  </padstyle>
+  <footprint name="54101S0803LF" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="s153_h102" originx="0" originy="0" rotation="90" />
+    <pcbpin number="2" name="2" style="c153_h102" originx="99.999999999999" originy="0" rotation="90" />
+    <pcbpin number="3" name="3" style="c153_h102" originx="200" originy="0" rotation="90" />
+    <line layer="TOP_ASSEMBLY" originx="-49.999999999999" originy="47.440944881889" endx="250" endy="47.440944881889" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="250" originy="47.440944881889" endx="250" endy="-47.440944881889" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="250" originy="-47.440944881889" endx="-49.999999999999" endy="-47.440944881889" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-49.999999999999" originy="-47.440944881889" endx="-49.999999999999" endy="47.440944881889" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-89.370078740156" originy="86.811023622046" endx="289.37007874015" endy="86.811023622046" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="289.37007874015" originy="86.811023622046" endx="289.37007874015" endy="-86.811023622046" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="289.37007874015" originy="-86.811023622046" endx="-89.370078740156" endy="-86.811023622046" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-89.370078740156" originy="-86.811023622046" endx="-89.370078740156" endy="86.811023622046" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-49.999999999999" originy="47.440944881889" endx="250" endy="47.440944881889" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="250" originy="47.440944881889" endx="250" endy="-47.440944881889" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="250" originy="-47.440944881889" endx="-49.999999999999" endy="-47.440944881889" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-49.999999999999" originy="-47.440944881889" endx="-49.999999999999" endy="47.440944881889" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-70.866141732283" originy="0" endx="-70.866141732283" endy="0" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-68.897637795275" originy="0" startangle="-180.0" sweepangle="180.0" radius="1.9685039370079" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-66.929133858267" originy="0" endx="-66.929133858267" endy="0" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-68.897637795275" originy="0" startangle=".0" sweepangle="180.0" radius="1.9685039370079" width="3.9370078740157" />
+  </footprint>
+  <symbol name="54101-S0803LF" originx="0" originy="0">
+    <line originx="200" originy="100" endx="600" endy="100" width="0" />
+    <line originx="600" originy="-300" endx="600" endy="100" width="0" />
+    <line originx="600" originy="-300" endx="200" endy="-300" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-300" width="0" />
+    <sympin number="1" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="1" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="200" originy="-100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="2" />
+      <text name="pindes" originx="140" originy="-80" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <sympin number="3" originx="200" originy="-200" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="3" />
+      <text name="pindes" originx="140" originy="-180" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="3" />
+    </sympin>
+  </symbol>
+  <component name="54101-S0803LF" designatorprefix="J" height="337.79527559055" footprint="54101S0803LF">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="1" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="2" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="3" />
+    <attached_symbol gate="1" name="54101-S0803LF" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/54101.pdf" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="BergStik, Board to Board connector, Unshrouded vertical Header, Through Hole, Single Row, 3 Positions, 2.54 mm Pitch." />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="649-54101-S0803LF" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/54101-S0803LF?qs=iiM6sTJtPEc921tw16XaKg%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Amphenol Communication Solutions" />
+    <text name="Manufacturer_Part_Number" originx="650" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="54101-S0803LF" />
+  </component>
+</quadcept_library>
